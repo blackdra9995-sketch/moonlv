@@ -16,7 +16,7 @@
     --color-border: #DACCBF;
 }
 html{
-    height: 100%;
+    height: 80%;
 }
 body {
     position: relative;
@@ -31,7 +31,7 @@ body {
     background-color: transparent;
     background-image: linear-gradient(0deg, transparent 24%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 1) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, 1) 75%, rgba(255, 255, 255, 1) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255,1) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, 1) 75%, rgba(255, 255, 255, 1) 76%, transparent 77%, transparent);
     height:100%;
-    background-size:80px 80px;
+    background-size:100px 100px;
     overflow: hidden;
     z-index: 1;
 }
@@ -1025,8 +1025,8 @@ body {
 }
 .image.slider {
     position: relative;
-    width: 220px;
-    height: 220px;
+    width: 200px;
+    height: 200px;
     overflow: hidden;
     border-radius: 50%;
     border: 6px solid #fff;
@@ -1035,8 +1035,8 @@ body {
 
 .image.slider img {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     object-fit: cover;
     left: 0;
     top: 0;
@@ -1051,7 +1051,7 @@ body {
    MOBILE RESPONSIVE
 ========================= */
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
 
     body {
         overflow-x: hidden;
@@ -1066,7 +1066,7 @@ body {
 
     .left,
     .right {
-        width: 100%;
+        width: 80%;
     }
 
     .title h1 {
@@ -1079,14 +1079,14 @@ body {
     }
 
     .image.slider img {
-        width: 100%;
+        width: 80%;
         height: auto;
         object-fit: cover;
         border-radius: 20px;
     }
 
     .flag__birthday img {
-        width: 150px;
+        width: 140px;
     }
 
     .btn button {
@@ -1124,7 +1124,7 @@ body {
 
 #countdownNumber{
     color:#fff;
-    font-size:120px;
+    font-size:110px;
     font-weight:bold;
     font-family:'Poppins',sans-serif;
     animation:zoom 1s ease-in-out infinite;
@@ -1139,8 +1139,8 @@ body {
     position:fixed;
     top:0;
     left:0;
-    width:100%;
-    height:100%;
+    width:80%;
+    height:80%;
     z-index:10000;
 }
 html{
@@ -1153,7 +1153,7 @@ body{
 }
 
 img{
-    max-width:100%;
+    max-width:90%;
     height:auto;
 }
 
@@ -1166,7 +1166,7 @@ img{
     flex-wrap:wrap;
 }
 
-@media(max-width:768px){
+@media(max-width:750px){
 
 .content{
 
@@ -1193,7 +1193,7 @@ img{
 }
 
 /* MOBILE PERFORMANCE OVERRIDES — HTML/JS unchanged */
-html, body { width:100%; max-width:100%; overflow-x:hidden; }
+html, body { width:80%; max-width:90%; overflow-x:hidden; }
 
 @media (hover:none) and (pointer:coarse) {
   #btn__letter:hover { box-shadow:none; }
@@ -1210,9 +1210,9 @@ html, body { width:100%; max-width:100%; overflow-x:hidden; }
   }
 }
 
-@media screen and (max-width:768px) {
-  body { min-height:100dvh; overflow-x:hidden; -webkit-text-size-adjust:100%; }
-  #wrapper { min-height:100dvh; height:auto; overflow:hidden; }
+@media screen and (max-width:750px) {
+  body { min-height:90dvh; overflow-x:hidden; -webkit-text-size-adjust:100%; }
+  #wrapper { min-height:90dvh; height:auto; overflow:hidden; }
   .content { width:100%; padding:18px 12px 30px; gap:18px; }
   .content .left,.content .right { width:100%; max-width:100%; }
   .title { font-size:clamp(1.35rem,7vw,2rem); letter-spacing:3px; }
@@ -1254,7 +1254,7 @@ html, body { width:100%; max-width:100%; overflow-x:hidden; }
   .boxMail .boxMail-container .card2 h3 { font-size:20px; padding-left:20px; }
   .boxMail .boxMail-container .card1 .userImg { width:65px; height:65px; margin-bottom:12px; }
   .boxMail .fa-xmark { top:4px; right:4px; font-size:25px; padding:8px 14px; }
-  #heartContainer { width:100%; height:100%; overflow:hidden; contain:strict; }
+  #heartContainer { width:80%; height:80%; overflow:hidden; contain:strict; }
 
   /* Lower continuous animation load on mobile */
   .decorate_star,.decorate_flower--one,.decorate_flower--two,
@@ -1264,7 +1264,7 @@ html, body { width:100%; max-width:100%; overflow-x:hidden; }
   .fa-heart { animation-duration:1.5s; }
 }
 
-@media screen and (max-width:380px) {
+@media screen and (max-width:370px) {
   .content { padding-left:8px; padding-right:8px; gap:12px; }
   .title { font-size:1.25rem; letter-spacing:2px; }
   .title .hat { right:-25px !important; width:55px; }
